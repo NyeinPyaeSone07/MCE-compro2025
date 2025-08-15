@@ -2,8 +2,8 @@
 
 int main() {
 
-    printf ("Hello, World!$\n");
-    printf ("Welcome to Robotics and AI!$\n");
+    printf ("Hello, World!\n");
+    printf ("Welcome to Robotics and AI!\n");
 
    
 

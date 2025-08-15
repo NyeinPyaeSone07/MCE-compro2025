@@ -1,10 +1,13 @@
 #include <stdio.h>
 
-int main(){
-    
-     printf (" Salary     : %8d\n",6500);
-     printf (" Money/Week : %8.2f\n",6500.0/4);
-     printf (" Money/Day  : %8.3f\n",6500.0/4/7);
-
+int main() {
+    int myNum;
+    printf("Enter total minutes :");
+    scanf ( "%d",& myNum);
+    int myMin;
+    int myRe;
+    int myNum/myMin=myRe;
+    printf("75 Minutes is:");
+    scanf ("%d",& myRe);
     return 0;
 }

@@ -2,7 +2,7 @@
 
 int main() {
 
-    printf ("%.2f\n",68.01+8.4+3);
+    printf ("\"\\America ya!\\\"\n");
 
     return 0;
 
