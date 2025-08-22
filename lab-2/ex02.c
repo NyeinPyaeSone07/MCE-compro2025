@@ -1,15 +1,20 @@
 #include <stdio.h>
+int main() {
 
-int mai() {
+int totalMinutes;
+int minute;
+int hour;
 
- int Hours,;
- int Minutes;
 
- printf("Enter total minutes:");
- scanf("%d",& Minutes);
+printf("Enter total minutes:");
+scanf("%d",& totalMinutes);
 
-int Minutes=Hours/60;
-printf ("%d is %d hour(S) and %d minute((s)",Hours, Minutes); 
+hour=totalMinutes/60;
+minute=totalMinutes%60;
 
-    return 0;
+printf("%d minutes is %d hour(s) and %d minute(s)",totalMinutes,hour,minute);
+
+return 0;
+
+
 }

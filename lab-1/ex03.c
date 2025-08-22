@@ -1,8 +1,11 @@
 #include <stdio.h>
+int main(){
 
-int main() {
+printf("%d\n",(97+21)-56);
 
-    printf ("%d\n",(97+21)-56);
+return 0;
 
-    return 0;
+
+
+
 }

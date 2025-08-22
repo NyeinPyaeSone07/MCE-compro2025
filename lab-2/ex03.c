@@ -1,24 +1,32 @@
 #include <stdio.h>
+int main(){
 
-int main() {
+char name[50];
+int age,weight;
+float height;
+char gender,education[100];
 
-float age,height,weight;
-char name[50]="Jane";
-char education[100];
-char gender [20];
-printf("Enter you Name:");
-scanf("%[^\n]",name);
-printf("Enter you Age:");
-scanf("%f",&age);
-printf("Enter your height:");
-scanf("%f",&height);
-printf("Enter your weight:");
-scanf("%f",&weight);
-printf("Enter you gender:");
-scanf("%s",gender);
-printf("Enter you Education Qualification: ");
-scanf(" %[^\n1]",education);
-printf("Name:%s\nAge:%f\nGender:%s\nHeight:%f\nWeight:%f\nEducation :%s\n",name, age, gender, height, weight, education);
 
-    return 0;
+printf ("Enter your name: ");
+scanf("%s", name);
+
+printf ("Enter your age: ");
+scanf("%d",& age);
+
+printf ("Enter your height: ");
+scanf("%f",& height);
+
+printf ("Enter your weight: ");
+scanf("%d",& weight);
+
+printf("Enter your gender: ");
+scanf(" %c", & gender);
+
+printf("Enter your education: ");
+scanf ("%s", education);
+
+printf("\nName: %s\nAge: %d\nGender: %c\nHeight: %.1f\nWeight: %d\nEducation: %s\n",name,age,gender,height,weight,education);
+
+return 0;
+
 }

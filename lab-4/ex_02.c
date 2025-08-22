@@ -1,20 +1,16 @@
 #include <stdio.h>
-int main(){
 
-int i=1;
-int num,sum=0;
+int main() {
+    int count = 1;
+    int num, sum = 0;
 
+    while (count <= 10) {
+        printf("%d.Enter the number: ", count);
+        scanf("%d", &num);
+        sum += num;
+        count++;
+    }
 
-while (i<=10) {
-printf("%d.Enter the number:",i);
-scanf("%d", &num);
-sum += num;
-i++;
-}
+    printf("Total sum is : %d\n", sum);
 
-
-printf("total sum is %d\n",sum);
-
-return 0;
-
-}
+    return 0;

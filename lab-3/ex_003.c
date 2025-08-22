@@ -5,21 +5,23 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    switch (num > 0 && num < 100) {
-        case 1:  
-            switch (num % 2) {
-                case 0:
-                    printf("%d is even\n", num);
-                    break;
-            }
-            break;
-    }
+  switch(num)
 
-    switch (num < 0 || num > 100) {
-        case 1:  
-            printf("%d is out of range\n", num);
-            break;
-    }
+  { case 1: (num%2==0);
+    printf("%d is even\n",num);
+    break;
+
+    case 2: (num>100);
+    printf("%d is out of range\n",num);
+    break;
+
+    case 3: (num%2!=0);
+    printf("%d is odd\n",num);
+    break;
+
+
+
+  }
 
     return 0;
 }
